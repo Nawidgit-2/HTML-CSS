@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>YouTube.com Clone</title>
+
+</head>
+
+<style>
+  p{font-family: arial;margin-top: 0;margin-bottom: 0;}
+
+.thumbnail{width: 100%;
+}
+
+
+.Search-bar{display: block;}
+
+.Video-stats{margin-left: 10px;color: rgb(96, 96, 96);}
+
+.Video-info{
+width: 100%;margin-top: 16px;}
+
+.Video-title{margin-top: 0px;margin-bottom: 15px;margin-left: 10px;
+font-size: 18px;
+font-weight: 700;
+line-height: 22px;
+}
+
+.profile-picture{border-radius: 45px;
+  width: 45px;
+  height: 45px;margin-top: 16px;}
+
+.thumbnail-row{
+width: 100%;}
+
+.Video-author{font-size: 14px;margin-left: 10px;
+color: rgb(96, 96, 96);
+margin-bottom: 5px;}
+
+.video-info-grid{display: grid;grid-template-columns: 42px 1fr;}
+
+
+.video-grid{display:grid;grid-template-columns: 1fr 1fr 1fr;column-gap :15px;row-gap: 65px;}
+
+body{margin: 0px;}
+
+.header{height: 55px;display: flex;flex-direction: row;justify-content: space-between;}
+
+.left-section{display: flex;align-items: center;}
+
+.middle-section{flex: 1;margin-left: 70px;margin-right: 35px;max-width: 500px;}
+
+.right-section{width: 200px;}
+
+.hamburger-menu{height: 20px;width: 35px;margin-left: 24px;margin-right: 24px;}
+
+.youtube-logo{height: 20px;}
+
+.search-button{height: 60px;width: 60px;}
+
+.voice-button{height: 40px;width: 40px;}
+
+.search-button-new{height: 40px;width: 40px;}
+
+</style>
+
+</head>
+
+<body>
+
+  <div class="header">
+
+    <div class="left-section">
+      <img class="hamburger-menu" src="youtube-logos/3-lines-yt.png">
+      <img class="youtube-logo" src="youtube-logos/yt-logo.png">
+        </div>
+
+    <div class="middle-section">
+      <input class="Search-bar" type="text"placeholder="Search">
+      <button class="search-button">
+        <img class="search-button-new" src="youtube-logos/search-yt.png">
+      </button>
+      <button class="voice-button">
+        <img class="aj" src="youtube-logos/mic-yt.png">
+      </button>
+    </div>
+
+
+    <div class="right-section">Right</div>
+   </div>
+
+
+
+<div class="video-grid">
+
+
+  <div class="Video-preview">
+    <div>
+      <img class="thumbnail-row"
+      src="images/thumbnail-1.webp">
+    </div>
+    <div class="video-info-grid">
+    <div class="channel-picture">
+    <img class="profile-picture"
+    src="images/profile.jpeg">
+    </div>
+    <div class="Video-info">
+    <p class="Video-title">
+    Talking Tech and AI with Google CEO Sundar Pichai!
+    </p>
+    <p class="Video-author">
+      Marques Brownlee
+    </p>
+    <p class="Video-stats">
+    3.4M &#183; 6 months ago
+    </p>
+    </div>
+    </div>
+    </div>
+    
+    <div class="Video-preview">
+      <div>
+        <img class="thumbnail-row"
+        src="images/thumbnail-2.webp">
+      </div>
+      <div class="video-info-grid">
+      <div class="channel-picture">
+      <img class="profile-picture"
+      src="images/profile-2.jpeg">
+      </div>
+      <div class="Video-info">
+      <p class="Video-title">
+        President Joe Biden meets with King Charles in Knightsbridge
+      </p>
+      <p class="Video-author">
+        BBC News
+      </p>
+      <p class="Video-stats">
+      562K &#183; 1 day ago
+      </p>
+      </div>
+      </div>
+      </div>
+
+      <div class="Video-preview">
+        <div>
+          <img class="thumbnail-row"
+          src="images/thumbnail-6.webp">
+        </div>
+        <div class="video-info-grid">
+        <div class="channel-picture">
+        <img class="profile-picture"
+        src="images/profile-4.jpeg">
+        </div>
+        <div class="Video-info">
+        <p class="Video-title">
+        Deck the Halls [Summer version] For Kids
+        </p>
+        <p class="Video-author">
+          CoCo Melon
+        </p>
+        <p class="Video-stats">
+        10.4M &#183; 9 months ago
+        </p>
+        </div>
+        </div>
+        </div>
+        
+        <div class="Video-preview">
+          <div>
+            <img class="thumbnail-row"
+            src="images/thumbnail-3.webp">
+          </div>
+          <div class="video-info-grid">
+          <div class="channel-picture">
+          <img class="profile-picture"
+          src="images/profile-3.jpeg">
+          </div>
+          <div class="Video-info">
+          <p class="Video-title">
+            Inside Afghanistan as a Black man
+          </p>
+          <p class="Video-author">
+            BlackmandaTraveler
+          </p>
+          <p class="Video-stats">
+          62K &#183; 2 weeks ago
+          </p>
+          </div>
+          </div>
+          </div>
+
+
+          <div class="Video-preview">
+            <div>
+              <img class="thumbnail-row"
+              src="images/thumbnail-4.webp">
+            </div>
+            <div class="video-info-grid">
+            <div class="channel-picture">
+            <img class="profile-picture"
+            src="images/profile-5.jpeg">
+            </div>
+            <div class="Video-info">
+            <p class="Video-title">
+            Mo Deen gets Heated in Debate!
+            </p>
+            <p class="Video-author">
+              Speakers Corner
+            </p>
+            <p class="Video-stats">
+            986K views &#183; 1 year ago
+            </p>
+            </div>
+            </div>
+            </div>
+            
+            <div class="Video-preview">
+              <div>
+                <img class="thumbnail-row"
+                src="images/thumbnail-5.webp">
+              </div>
+              <div class="video-info-grid">
+              <div class="channel-picture">
+              <img class="profile-picture"
+              src="images/profile-6.jpeg">
+              </div>
+              <div class="Video-info">
+              <p class="Video-title">
+                Ibn Taymiyyah discuss on how to purify soul and improve faith
+              </p>
+              <p class="Video-author">
+                Amart TV
+              </p>
+              <p class="Video-stats">
+              651K &#183; 3 months ago
+              </p>
+              </div>
+              </div>
+              </div>
+
+
+        
+
+</div>
+
+
+
+
+</body>
+
+
+
+</html>
